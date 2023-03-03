@@ -1,0 +1,13 @@
+.field-item {
+  border: 1px solid var(--black) !important;
+  div {
+    height: 0px !important;
+    transition: height 0.3s !important;
+    background: var(--primary-blue) !important;
+  }
+  &_checked {
+    div {
+      height: 64px !important;
+    }
+  }
+}

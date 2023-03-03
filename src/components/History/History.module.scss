@@ -1,0 +1,7 @@
+.history {
+  width: 200px;
+  &__items-wrapper {
+    height: 70vh;
+    overflow-y: auto;
+  }
+}
